@@ -1,0 +1,20 @@
+{
+  "facts": [
+    {
+      "id": 1,
+      "img": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/10/beer-glass-bar-1296x728-header.jpg?w=1155&h=1528",
+      "imgHD": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/10/beer-glass-bar-1296x728-header.jpg?w=1155&h=1528",
+      "title": "FACT #1"
+    },
+    {
+      "id": 2,
+      "img": "https://images.unsplash.com/photo-1561150169-371f366b828a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YWxjb2hvbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      "title": "FACT #2"
+    },
+    {
+      "id": 3,
+      "img": "https://p2d7x8x2.stackpathcdn.com/wordpress/wp-content/uploads/2020/03/iStock-1040303026.jpg",
+      "title": "FACT #3"
+    }
+  ]
+}

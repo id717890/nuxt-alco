@@ -2,9 +2,15 @@
 @import 'bootstrap/scss/bootstrap-reboot.scss';
 @import 'bootstrap/scss/bootstrap-grid.scss';
 @import 'bootstrap/scss/buttons.scss';
+@import 'bootstrap/scss/utilities.scss';
+
 @import 'media';
 @import 'header';
 @import 'footer';
+@import 'common';
+@import 'text';
+
+@import 'UI/buttons';
 
 *,
 *::before,
@@ -14,11 +20,16 @@
   font-family: 'Barlow', sans-serif;
   font-size: 1rem;
   font-weight: 400;
+  color: white;
 }
 
 html,
 body {
   background-color: #1c0026;
+}
+
+.v-application {
+  background-color: #1c0026 !important;
 }
 
 a {
@@ -42,6 +53,31 @@ html {
 }
 
 .nuxt-view {
-  padding-top: 140px;
-  height: 100vh;
+  margin-top: 140px;
+  height: auto;
+  min-height: 100vh;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgb(255, 255, 255);
 }

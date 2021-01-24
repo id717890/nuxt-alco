@@ -1,9 +1,11 @@
 <template>
-  <div>
-    <Header />
-    <Nuxt class="nuxt-view" />
-    <Footer />
-  </div>
+  <v-app>
+    <div>
+      <Header />
+      <Nuxt class="nuxt-view" />
+      <Footer />
+    </div>
+  </v-app>
 </template>
 
 <script>

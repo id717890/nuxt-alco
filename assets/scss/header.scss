@@ -1,4 +1,5 @@
 .header-wrapper {
+  z-index: 10;
   // border: 1px solid red;
 }
 
@@ -11,6 +12,7 @@
 }
 
 .header-sticky {
+  z-index: 10;
   background-color: hsla(286, 93%, 5%, 0.97);
 
   .menu {
