@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;900&display=swap');
 @import 'bootstrap/scss/bootstrap-reboot.scss';
 @import 'bootstrap/scss/bootstrap-grid.scss';
+@import 'bootstrap/scss/buttons.scss';
 @import 'media';
 @import 'header';
+@import 'footer';
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+html,
+body {
+  background-color: #1c0026;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 html {
@@ -17,3 +32,16 @@ html {
 // .container {
 //   border: 2px solid red;
 // }
+
+.ma-0 {
+  margin: 0;
+}
+
+.pa-0 {
+  padding: 0;
+}
+
+.nuxt-view {
+  padding-top: 140px;
+  height: 100vh;
+}

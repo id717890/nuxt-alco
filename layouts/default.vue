@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <Nuxt />
+    <Nuxt class="nuxt-view" />
     <Footer />
   </div>
 </template>

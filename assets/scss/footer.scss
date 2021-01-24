@@ -1,0 +1,23 @@
+.footer-wrapper {
+  z-index: 10;
+  // border: 1px solid red;
+}
+
+.footer {
+  color: white;
+  // background-color: #1d0125;
+  background-color: rgb(19, 1, 25);
+
+  .footer__block1 {
+    border-top-color: rgba(255, 255, 255, 0.1);
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+  }
+
+  .footer__block2 {
+    padding: 20px 0;
+    // height: 250px;
+    // line-height: 250px;
+  }
+}

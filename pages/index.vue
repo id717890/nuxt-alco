@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container-nuxt">
     <div>
       <Logo />
       <h1 class="title">alco</h1>
-      <div class="links">
+      <!-- <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -20,7 +20,7 @@
         >
           GitHub
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -34,12 +34,12 @@ export default {
 </script>
 
 <style>
-.container {
+.container-nuxt {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
+/* .links {
   padding-top: 15px;
-}
+} */
 </style>
